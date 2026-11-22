@@ -1,0 +1,10 @@
+{
+  "name": "SlayNaija Community",
+  "short_name": "SlayNaija",
+  "description": "Dress, share and connect.",
+  "start_url": "./",
+  "display": "standalone",
+  "background_color": "#fdfcfb",
+  "theme_color": "#6E2848",
+  "icons": []
+}

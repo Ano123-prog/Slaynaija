@@ -1,0 +1,59 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#6E2848">
+  <meta name="description" content="SlayNaija Community — dress, share and connect.">
+  <title>SlayNaija Community</title>
+  <link rel="manifest" href="manifest.webmanifest">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header class="topbar">
+    <a class="brand" href="#" aria-label="SlayNaija home"><span class="crown">♛</span><span>SlayNaija</span><small>Dress · Share · Connect</small></a>
+    <div class="top-actions"><button class="icon-btn" aria-label="Notifications">♧</button><button class="icon-btn" aria-label="Search">⌕</button></div>
+  </header>
+
+  <main>
+    <nav class="categories" aria-label="Fashion categories">
+      <button class="category active">Women</button><button class="category">Men</button>
+      <button class="category">Children</button><button class="category">Accessories</button>
+    </nav>
+
+    <section class="hero">
+      <div><p class="eyebrow">YOUR STYLE COMMUNITY</p><h1>Find your<br>next best look.</h1>
+      <p>Fashion, style and inspiration — together.</p><button class="gold-btn" data-go="community">Explore the community <span>→</span></button></div>
+      <div class="hero-art" aria-hidden="true"><span>SN</span></div>
+    </section>
+
+    <section class="section-head"><div><p class="eyebrow">CURATED FOR YOU</p><h2>Trending styles</h2></div><button class="text-btn" data-go="discover">See all ›</button></section>
+    <section class="style-grid" aria-label="Trending style examples">
+      <article class="style-card"><div class="fashion-art art-one"><span>01</span></div><button class="heart" aria-label="Save style">♡</button><p>Modern Ankara</p><small>Women · Occasion</small></article>
+      <article class="style-card"><div class="fashion-art art-two"><span>02</span></div><button class="heart" aria-label="Save style">♡</button><p>Burgundy elegance</p><small>Women · Party</small></article>
+      <article class="style-card"><div class="fashion-art art-three"><span>03</span></div><button class="heart" aria-label="Save style">♡</button><p>Soft occasion wear</p><small>Women · Chic</small></article>
+    </section>
+
+    <section class="wardrobe">
+      <div><p class="eyebrow">YOUR COLLECTION</p><h2>My items <span class="count">3</span></h2></div>
+      <div class="mini-items"><span>👜</span><span>👗</span><span>👠</span></div>
+      <button class="outline-btn" data-go="profile">Add item +</button>
+    </section>
+
+    <section id="community" class="community-preview">
+      <div class="section-head"><div><p class="eyebrow">FROM THE COMMUNITY</p><h2>Style conversations</h2></div><span class="live-dot">Preview</span></div>
+      <article class="post-preview"><div class="avatar">SN</div><div><strong>SlayNaija Community</strong><small>Welcome to the style lounge</small><p>Share the looks you love, discover new inspiration and connect with fashion lovers.</p><button class="text-btn" data-go="community">Explore posts →</button></div></article>
+    </section>
+  </main>
+
+  <nav class="bottom-nav" aria-label="Main navigation">
+    <button class="nav-item selected" data-go="discover"><span>⌂</span>Home</button>
+    <button class="nav-item" data-go="community"><span>♧</span>Community</button>
+    <button class="create-btn" aria-label="Create a post" data-go="community">+</button>
+    <button class="nav-item" data-go="shop"><span>♧</span>Shop</button>
+    <button class="nav-item" data-go="profile"><span>♙</span>Profile</button>
+  </nav>
+  <div class="toast" role="status" aria-live="polite"></div>
+  <script src="app.js"></script>
+</body>
+</html>
